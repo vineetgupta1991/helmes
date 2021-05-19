@@ -19,6 +19,8 @@ Swagger.
 Lombok
 
 Mapstruct
+
+H2
 ## 
 
 Import into your IDE as a gradle project and run.
