@@ -24,6 +24,7 @@ H2
 ## 
 
 Import into your IDE as a gradle project and run.
+In order to check entries in DB, login to http://localhost:8080/h2, with datasource url, jdbc:h2:~/helmes and check the tables.
 
 # Documentation
 
