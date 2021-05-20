@@ -31,18 +31,18 @@ Documentation can be found [here Swagger-UI](http://localhost:8081/swagger-ui.ht
 
 # Example of usage
 ```
-curl -X POST "http://localhost:8080/v1/helmes" -H "accept: */*" -H "language: eng" -H "Content-Type: application/json" -d "{ \"acceptedTerms\": true, \"name\": \"dewde\", \"sector\": [ { \"label\": \"ddd\", \"value\": \"ddd\" } ]}"
+curl -X POST "http://localhost:8080/v1/helmes" -H "accept: */*" -H "language: eng" -H "Content-Type: application/json" -d "{ \"acceptedTerms\": true, \"name\": \"Vineet\", \"sector\": [ { \"label\": \"Manufacturing\", \"value\": \"1\" } ]}"
 ``` 
 This is a POST request.
 
 On running the above URL with POST method on Swagger or any other rest client of your choice, the API will generate a result as below :
 
 `{
-"name": "dewde",
+"name": "Vineet",
 "sector": [
 {
-"label": "ddd",
-"value": "ddd"
+"label": "Manufacturing",
+"value": "1"
 }
 ],
 "acceptedTerms": true
